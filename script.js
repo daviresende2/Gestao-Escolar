@@ -1,4 +1,5 @@
 
+//LEONARDO SENA MACHADO
 
 function adicionaDadosAluno() {
   var nomeAluno = document.getElementById('input_nome').value;
