@@ -1,3 +1,5 @@
+//Caio Gomulski RA:231663882
+
 function editarAluno(botaoEditar) { // Função para editar dados do aluno
   var linhaAluno = botaoEditar.parentNode.parentNode; // Obtém a linha do aluno a partir do botão de edição
   var celulas = linhaAluno.getElementsByTagName("td");// Obtém todas as células (td) da linha do aluno
