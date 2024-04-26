@@ -1,0 +1,50 @@
+/* Rian salin RA: 230973172
+/*formularios */
+body{
+  background-color: gray;
+}
+
+section{
+  background-color: darkcyan;
+  padding: 15px;
+  width: 650px;
+  height: 425px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px black;
+}
+
+.b{
+  text-align: center;
+  padding: 45px;
+}
+
+.bt1{
+  background-color: rgb(94, 94, 94);
+   font-weight: 600;
+   cursor: pointer;
+   border-radius: 5px;
+   border: none;
+   transition: background-color 0.2s ease;
+}
+
+.bt1:hover {
+        background-color: white; 
+    }
+
+/*tabela lista de alunos */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
